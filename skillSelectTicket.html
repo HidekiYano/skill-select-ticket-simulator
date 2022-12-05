@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skill Select Ticket Simulator</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="skillSelectTicket.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+    </style>
+</head>
+<body>
+    <h1>Skill Select Ticket Simulator</h1>
+    <div id="line"></div>
+    <p>Select the skill set you want to simulate:</p>
+    <div class="skill-input">
+        <div id="skill-input-level-1">
+            <select name="skill" id="skill-1-input">
+                <option value="select">Select the first skill</option>
+                <option value="Control Master">Control Master</option>
+                <option value="Fireballer">Fireballer</option>
+                <option value="Pitcher's Insight">Pitcher's Insight</option>
+                <option value="Pitcher's Chemistry">Pitcher's Chemistry</option>
+                <option value="Slow Starter">Slow Starter</option>
+                <option value="Cooperative Pitching">Cooperative Pitching</option>
+                <option value="Bullpen Day">Bullpen Day</option>
+                <option value="The Last Boss">The Last Boss</option>
+                <option value="The Untouchable">The Untouchable</option>
+                <option value="Cleaning Up Your Mess">Cleaning Up Your Mess</option>
+                <option value="Ace">Ace</option>
+                <option value="Giant Crusher">Giant Crusher</option>
+                <option value="Inning Eater">Inning Eater</option>
+                <option value="Putaway Pitch">Putaway Pitch</option>
+                <option value="Iron Will">Iron Will</option>
+                <option value="Dominant Pitcher">Dominant Pitcher</option>
+                <option value="Finesse Pitcher">Finesse Pitcher</option>
+                <option value="Firefighter">Firefighter</option>
+                <option value="Stability">Stability</option>
+                <option value="Winning Streak">Winning Streak</option>
+                <option value="Fixer">Fixer</option>
+                <option value="Golden Pitcher">Golden Pitcher</option>
+                <option value="Pitching Machine">Pitching Machine</option>
+                <option value="Power Pitcher">Power Pitcher</option>
+                <option value="The Setup Man">The Setup Man</option>
+                <option value="Control Artist">Control Artist</option>
+                <option value="3-4-5 Specialist">3-4-5 Specialist</option>
+                <option value="Warmed Up">Warmed Up</option>
+                <option value="Field Commander">Field Commander</option>
+                <option value="Calm Mind">Calm Mind</option>
+                <option value="Danger Zone">Danger Zone</option>
+                <option value="Fearless">Fearless</option>
+                <option value="Lightning Pitch">Lightning Pitch</option>
+                <option value="Righty Specialist">Righty Specialist</option>
+                <option value="Breaking Ball Mastery">Breaking Ball Mastery</option>
+                <option value="Lefty Specialist">Lefty Specialist</option>
+                <option value="Strong Stamina">Strong Stamina</option>
+                <option value="Seasoned Pitcher">Seasoned Pitcher</option>
+                <option value="Thin Ice">Thin Ice</option>
+                <option value="Strong Mentality">Strong Mentality</option>
+                <option value="Pick-off King">Pick-off King</option>
+            </select>
+            <select name="level" id="skill-1-input-level">
+                <option value="1">Lv. 1</option>
+                <option value="2">Lv. 2</option>
+                <option value="3">Lv. 3</option>
+                <option value="4">Lv. 4</option>
+                <option value="5">Lv. 5</option>
+                <option value="6">Lv. 6</option>
+            </select>
+        </div>
+        <div id="skill-input-level-2">
+            <select name="skill" id="skill-2-input">
+                <option value="select">Select the second skill</option>
+                <option value="The Last Boss">The Last Boss</option>
+                <option value="The Untouchable">The Untouchable</option>
+                <option value="Cleaning Up Your Mess">Cleaning Up Your Mess</option>
+                <option value="Ace">Ace</option>
+                <option value="Giant Crusher">Giant Crusher</option>
+                <option value="Inning Eater">Inning Eater</option>
+                <option value="Putaway Pitch">Putaway Pitch</option>
+                <option value="Iron Will">Iron Will</option>
+                <option value="Dominant Pitcher">Dominant Pitcher</option>
+                <option value="Finesse Pitcher">Finesse Pitcher</option>
+                <option value="Firefighter">Firefighter</option>
+                <option value="Stability">Stability</option>
+                <option value="Winning Streak">Winning Streak</option>
+                <option value="Fixer">Fixer</option>
+                <option value="Golden Pitcher">Golden Pitcher</option>
+                <option value="Pitching Machine">Pitching Machine</option>
+                <option value="Power Pitcher">Power Pitcher</option>
+                <option value="The Setup Man">The Setup Man</option>
+                <option value="Control Artist">Control Artist</option>
+                <option value="3-4-5 Specialist">3-4-5 Specialist</option>
+                <option value="Warmed Up">Warmed Up</option>
+                <option value="Field Commander">Field Commander</option>
+                <option value="Calm Mind">Calm Mind</option>
+                <option value="Danger Zone">Danger Zone</option>
+                <option value="Fearless">Fearless</option>
+                <option value="Lightning Pitch">Lightning Pitch</option>
+                <option value="Righty Specialist">Righty Specialist</option>
+                <option value="Breaking Ball Mastery">Breaking Ball Mastery</option>
+                <option value="Lefty Specialist">Lefty Specialist</option>
+                <option value="Strong Stamina">Strong Stamina</option>
+                <option value="Seasoned Pitcher">Seasoned Pitcher</option>
+                <option value="Thin Ice">Thin Ice</option>
+                <option value="Strong Mentality">Strong Mentality</option>
+                <option value="Pick-off King">Pick-off King</option>
+            </select>
+            <select name="level" id="skill-2-input-level">
+                <option value="1">Lv. 1</option>
+                <option value="2">Lv. 2</option>
+                <option value="3">Lv. 3</option>
+                <option value="4">Lv. 4</option>
+                <option value="5">Lv. 5</option>
+                <option value="6">Lv. 6</option>
+            </select>
+        </div>
+        <div id="skill-input-level-3">
+            <select name="skill" id="skill-3-input">
+                <option value="select">Select the third skill</option>
+                <option value="The Last Boss">The Last Boss</option>
+                <option value="The Untouchable">The Untouchable</option>
+                <option value="Cleaning Up Your Mess">Cleaning Up Your Mess</option>
+                <option value="Ace">Ace</option>
+                <option value="Giant Crusher">Giant Crusher</option>
+                <option value="Inning Eater">Inning Eater</option>
+                <option value="Putaway Pitch">Putaway Pitch</option>
+                <option value="Iron Will">Iron Will</option>
+                <option value="Dominant Pitcher">Dominant Pitcher</option>
+                <option value="Finesse Pitcher">Finesse Pitcher</option>
+                <option value="Firefighter">Firefighter</option>
+                <option value="Stability">Stability</option>
+                <option value="Winning Streak">Winning Streak</option>
+                <option value="Fixer">Fixer</option>
+                <option value="Golden Pitcher">Golden Pitcher</option>
+                <option value="Pitching Machine">Pitching Machine</option>
+                <option value="Power Pitcher">Power Pitcher</option>
+                <option value="The Setup Man">The Setup Man</option>
+                <option value="Control Artist">Control Artist</option>
+                <option value="3-4-5 Specialist">3-4-5 Specialist</option>
+                <option value="Warmed Up">Warmed Up</option>
+                <option value="Field Commander">Field Commander</option>
+                <option value="Calm Mind">Calm Mind</option>
+                <option value="Danger Zone">Danger Zone</option>
+                <option value="Fearless">Fearless</option>
+                <option value="Lightning Pitch">Lightning Pitch</option>
+                <option value="Righty Specialist">Righty Specialist</option>
+                <option value="Breaking Ball Mastery">Breaking Ball Mastery</option>
+                <option value="Lefty Specialist">Lefty Specialist</option>
+                <option value="Strong Stamina">Strong Stamina</option>
+                <option value="Seasoned Pitcher">Seasoned Pitcher</option>
+                <option value="Thin Ice">Thin Ice</option>
+                <option value="Strong Mentality">Strong Mentality</option>
+                <option value="Pick-off King">Pick-off King</option>
+            </select>
+            <select name="level" id="skill-3-input-level">
+                <option value="1">Lv. 1</option>
+                <option value="2">Lv. 2</option>
+                <option value="3">Lv. 3</option>
+                <option value="4">Lv. 4</option>
+                <option value="5">Lv. 5</option>
+                <option value="6">Lv. 6</option>
+            </select>
+        </div>
+    </div>
+    <p>Select the skill slot you want to change:</p>
+    <div id="skills">
+        <div class="skill-1">
+            <input type="radio" value="skill1" name="skill-input-radio">
+            <div id="skill-1" class="blank"></div>
+        </div>
+        <div class="skill-2">
+            <input type="radio" value="skill2" name="skill-input-radio">
+            <div id="skill-2" class="blank"></div>
+        </div>
+        <div class="skill-3">
+            <input type="radio" value="skill3" name="skill-input-radio">
+            <div id="skill-3" class="blank"></div>
+        </div>
+    </div>
+    <button type="submit" id="change-skills">Change Skills</button>
+    <script src="skillSelectTicket.js"></script>
+</body>
+</html>

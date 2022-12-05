@@ -1,0 +1,147 @@
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    margin: 35px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+.skill-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    padding: 5px;
+}
+
+#skill-input-level-1, #skill-input-level-2, #skill-input-level-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+select { 
+    margin: 5px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#skill-1, #skill-2, #skill-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+}
+
+.skill-1, .skill-2, .skill-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.blank {
+    width: 250px;
+    height: 30px;
+    background-color: lightgray;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.bronze {
+    width: 250px;
+    height: 30px;
+    background-color: maroon;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.silver {
+    width: 250px;
+    height: 30px;
+    background-color: silver;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.gold {
+    width: 250px;
+    height: 30px;
+    background-color: gold;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.diamond {
+    width: 250px;
+    height: 30px;
+    background-color: rgb(19, 125, 231);
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.legend {
+    width: 250px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.white {
+    width: 250px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+#line {
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+    padding: 10px;
+    width: 120px;
+}
